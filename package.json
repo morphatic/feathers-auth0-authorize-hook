@@ -1,6 +1,7 @@
 {
   "name": "@morphatic/feathers-auth0-authorize-hook",
   "version": "1.0.0",
+  "private": false,
   "description": "A \"before\" hook for FeathersJS to authorize requests accompanied by an Auth0-issued JWT.",
   "main": "lib/",
   "directories": {
