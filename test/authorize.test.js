@@ -11,7 +11,7 @@ const {
 } = require('./test-vars')
 
 // import the hook subbing in mocks for the helper functions
-const { authorize, getJWKS, x5cToPEM, getKey } = require('../lib/authorize')({
+const { authorize, getJWKS, x5cToPEM, getKey } = require('../lib')({
   getJWKS: mockJWKSClient
 })
 
