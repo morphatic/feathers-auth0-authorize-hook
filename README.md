@@ -76,7 +76,7 @@ Alternatively, you can modify `src/app.js` to modify the REST configuration sect
 ```js
 // src/app.js
 app.configure(express.rest(
-  (req, res) => {
+  (req, res, next) => {
     req.feathers = { ...req.feathers, headers: req.headers }
     next()
   }
