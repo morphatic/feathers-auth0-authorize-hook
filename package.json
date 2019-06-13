@@ -43,7 +43,7 @@
     "feathers-nedb": "^4.0.1",
     "mocha": "^6.1.4",
     "nedb": "^1.8.0",
-    "nyc": "^13.3.0"
+    "nyc": "^14.1.1"
   },
   "dependencies": {
     "@feathersjs/errors": "^3.3.6",
