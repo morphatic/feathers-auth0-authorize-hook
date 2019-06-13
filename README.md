@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/morphatic/feathers-auth0-authorize-hook.svg?branch=master)](https://travis-ci.org/morphatic/feathers-auth0-authorize-hook)
 [![Coverage Status](https://coveralls.io/repos/github/morphatic/feathers-auth0-authorize-hook/badge.svg?branch=master)](https://coveralls.io/github/morphatic/feathers-auth0-authorize-hook?branch=master)
+[![npm version](https://badge.fury.io/js/%40morphatic%2Ffeathers-auth0-authorize-hook.svg)](https://www.npmjs.com/package/@morphatic/feathers-auth0-authorize-hook)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/morphatic/astrologyjs/master/LICENSE)
 
 This plugin was designed to be used in scenarios where [FeathersJS](https://feathersjs.com/) is being used solely as a backend API server, and [Auth0](https://auth0.com/) is being used for authentication from a frontend client written with, e.g. Vue, React, or Angular. For a fuller discussion of this scenario and why I chose to write this plugin, [check out this blog post](https://morphatic.com/2019/04/14/authorizing-feathers-api-requests-for-vue-react-angular-apps-using-auth0/). If you are using Feathers for BOTH the backend AND the frontend, you're probably much better off using the [`@feathersjs/authentication`](https://docs.feathersjs.com/api/authentication/server.html) that's already part of the framework.
@@ -11,7 +12,7 @@ This plugin was designed to be used in scenarios where [FeathersJS](https://feat
 To install this plugin, from the root of your package:
 
 ```console
-$ npm install --save @morphatic/feathers-auth0-authorize-hook
+npm install --save @morphatic/feathers-auth0-authorize-hook
 ```
 
 In your feathers app config (usually found in `config/default.json`) you'll need to add the following properties. You'll want to update them with your actual Auth0 domain, i.e. swap out the `example` below with the domain for your app which you can find in your [Auth0 application settings](https://manage.auth0.com/dashboard/us/qzuku/applications).
@@ -211,6 +212,6 @@ const options = {
 const { authorize } = require('@morphatic/feathers-auth0-authorize-hook')(options) // <-- second, pass it to the import statement
 ```
 
-## Comments, Questions, Issues, etc.
+## Comments, Questions, Issues, etc
 
 I welcome feedback, bug reports, enhancement requests, or reports on your experiences with the plugin. Undoubtedly, there's a better way to do this than what I've come up with, and I'd love to hear about it. That being said, I hope some people will find this useful!!!
