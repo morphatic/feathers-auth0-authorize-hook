@@ -12,6 +12,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "eslint": "eslint lib/. test/. --config .eslintrc.json",
     "mocha": "mocha --recursive --timeout 10000",
+    "publish": "git push origin --tags && npm run changelog && git push origin",
     "release:major": "npm version major && npm publish",
     "release:minor": "npm version minor && npm publish",
     "release:patch": "npm version patch && npm publish",
