@@ -1,5 +1,11 @@
 # Change Log
 
+## [v1.0.2](https://github.com/morphatic/feathers-auth0-authorize-hook/tree/v1.0.2) (2019-06-16)
+[Full Changelog](https://github.com/morphatic/feathers-auth0-authorize-hook/compare/v1.0.1...v1.0.2)
+
+## [v1.0.1](https://github.com/morphatic/feathers-auth0-authorize-hook/tree/v1.0.1) (2019-06-13)
+[Full Changelog](https://github.com/morphatic/feathers-auth0-authorize-hook/compare/v1.0.0...v1.0.1)
+
 ## [v1.0.0](https://github.com/morphatic/feathers-auth0-authorize-hook/tree/v1.0.0) (2019-04-14)
 
 
